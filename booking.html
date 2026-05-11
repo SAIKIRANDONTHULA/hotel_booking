@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0"/>
+
+  <title>Booking</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <nav>
+
+    <div class="logo">
+      StayEase
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hotels.html">Hotels</a></li>
+    </ul>
+
+  </nav>
+
+  <section class="form-page">
+
+    <div class="form-container">
+
+      <h2>Book Your Hotel</h2>
+
+      <form id="bookingForm">
+
+        <input
+          type="date"
+          id="checkIn"
+          required
+        />
+
+        <input
+          type="date"
+          id="checkOut"
+          required
+        />
+
+        <input
+          type="number"
+          id="guests"
+          placeholder="Guests"
+          required
+        />
+
+        <button type="submit">
+          Confirm Booking
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <script src="js/booking.js"></script>
+
+</body>
+</html>
